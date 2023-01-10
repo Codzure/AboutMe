@@ -24,6 +24,7 @@ struct FunFactsView: View {
             Button("Show Random Fact") {
                 funFact = information.funFacts.randomElement()!
             }
+            .buttonStyle(.borderedProminent)
         }
         .padding()
     }
